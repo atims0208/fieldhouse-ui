@@ -69,22 +69,22 @@ export default function Contact() {
                 <CardContent className="space-y-4">
                   <div>
                     <h4 className="font-semibold text-neon-green">General Support</h4>
-                    <p>support@fieldhousestadium.com</p>
+                    <p>support@greendragondenstream.com</p>
                   </div>
 
                   <div>
                     <h4 className="font-semibold text-neon-green">Business Inquiries</h4>
-                    <p>business@fieldhousestadium.com</p>
+                    <p>business@greendragondenstream.com</p>
                   </div>
 
                   <div>
                     <h4 className="font-semibold text-neon-green">Press & Media</h4>
-                    <p>press@fieldhousestadium.com</p>
+                    <p>press@greendragondenstream.com</p>
                   </div>
 
                   <div>
                     <h4 className="font-semibold text-neon-green">Legal</h4>
-                    <p>legal@fieldhousestadium.com</p>
+                    <p>legal@greendragondenstream.com</p>
                   </div>
                 </CardContent>
               </Card>

@@ -23,10 +23,8 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
         <div className="flex items-center gap-4">
           <Link href="/" className="flex items-center gap-2">
-            <Image src="/logo.png" alt="Fieldhouse Stadium Beta" width={40} height={40} className="rounded-sm" />
-            <span className="text-xl font-bold text-primary logo-text hidden md:inline-block">
-              Fieldhouse Stadium <span className="text-secondary text-sm">BETA</span>
-            </span>
+            <Image src="/logo.png" alt="Green Dragon Den" width={40} height={40} className="rounded-sm" />
+            <span className="text-xl font-bold text-primary logo-text hidden md:inline-block">Green Dragon Den</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-6 ml-6">
@@ -151,7 +149,7 @@ export function Header() {
             {!isLoggedIn && (
               <div className="flex flex-col space-y-2">
                 <Link href="/login" onClick={() => setIsMenuOpen(false)}>
-                  <Button variant="outline" className="w-full">
+                  <Button variant="outline" className="w-full bg-transparent">
                     Log In
                   </Button>
                 </Link>

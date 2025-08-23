@@ -81,8 +81,8 @@ export default function DMCAPolicy() {
                 <p>
                   <strong>DMCA Agent</strong>
                 </p>
-                <p>Fieldhouse Stadium</p>
-                <p>Email: dmca@fieldhousestadium.com</p>
+                <p>Green Dragon Den</p>
+                <p>Email: dmca@greendragondenstream.com</p>
                 <p>Address: [Your Business Address]</p>
               </div>
             </CardContent>
@@ -93,7 +93,7 @@ export default function DMCAPolicy() {
               <CardTitle className="text-neon-green">Contact Information</CardTitle>
             </CardHeader>
             <CardContent className="text-cream space-y-4">
-              <p>For questions about this DMCA Policy, contact us at legal@fieldhousestadium.com</p>
+              <p>For questions about this DMCA Policy, contact us at legal@greendragondenstream.com</p>
               <p className="text-sm text-gray-400">Last updated: {new Date().toLocaleDateString()}</p>
             </CardContent>
           </Card>

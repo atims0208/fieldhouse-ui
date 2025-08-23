@@ -96,7 +96,9 @@ export default function PrivacyPolicy() {
               <CardTitle className="text-neon-green">Contact Us</CardTitle>
             </CardHeader>
             <CardContent className="text-cream space-y-4">
-              <p>If you have questions about this Privacy Policy, please contact us at privacy@fieldhousestadium.com</p>
+              <p>
+                If you have questions about this Privacy Policy, please contact us at privacy@greendragondenstream.com
+              </p>
               <p className="text-sm text-gray-400">Last updated: {new Date().toLocaleDateString()}</p>
             </CardContent>
           </Card>

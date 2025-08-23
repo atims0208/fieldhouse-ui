@@ -10,7 +10,7 @@ export default function HelpPage() {
     <div className="container px-4 py-6 md:px-6 space-y-8">
       <div className="text-center space-y-4 max-w-3xl mx-auto py-8">
         <h1 className="text-3xl md:text-5xl font-bold text-fhsb-cream">Help Center</h1>
-        <p className="text-xl text-muted-foreground">Find answers to your questions about Fieldhouse Stadium Beta</p>
+        <p className="text-xl text-muted-foreground">Find answers to your questions about Green Dragon Den</p>
         <div className="relative mt-6">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
           <Input
@@ -131,18 +131,17 @@ export default function HelpPage() {
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-1" className="border-fhsb-green/20">
             <AccordionTrigger className="text-fhsb-cream hover:text-fhsb-green">
-              What is Fieldhouse Stadium Beta?
+              What is Green Dragon Den?
             </AccordionTrigger>
             <AccordionContent className="text-muted-foreground">
-              Fieldhouse Stadium Beta is a live streaming platform specifically designed for sports content. It allows
-              creators to stream live sports events, analysis, coaching sessions, and more to a global audience of
-              sports fans.
+              Green Dragon Den is a live streaming platform specifically designed for sports content. It allows creators
+              to stream live sports events, analysis, coaching sessions, and more to a global audience of sports fans.
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="item-2" className="border-fhsb-green/20">
             <AccordionTrigger className="text-fhsb-cream hover:text-fhsb-green">
-              How do I start streaming on Fieldhouse Stadium Beta?
+              How do I start streaming on Green Dragon Den?
             </AccordionTrigger>
             <AccordionContent className="text-muted-foreground">
               To start streaming, you need to create an account, set up your creator profile, and configure your
@@ -153,11 +152,11 @@ export default function HelpPage() {
 
           <AccordionItem value="item-3" className="border-fhsb-green/20">
             <AccordionTrigger className="text-fhsb-cream hover:text-fhsb-green">
-              Is Fieldhouse Stadium Beta free to use?
+              Is Green Dragon Den free to use?
             </AccordionTrigger>
             <AccordionContent className="text-muted-foreground">
-              Yes, Fieldhouse Stadium Beta is free to use for viewers. Creators have access to basic streaming features
-              for free, with premium features available through our subscription plans.
+              Yes, Green Dragon Den is free to use for viewers. Creators have access to basic streaming features for
+              free, with premium features available through our subscription plans.
             </AccordionContent>
           </AccordionItem>
 
@@ -177,9 +176,8 @@ export default function HelpPage() {
               What types of content are allowed on the platform?
             </AccordionTrigger>
             <AccordionContent className="text-muted-foreground">
-              Fieldhouse Stadium Beta welcomes sports-related content including live events, analysis, coaching,
-              fitness, and educational content. All content must comply with our Community Guidelines and Terms of
-              Service.
+              Green Dragon Den welcomes sports-related content including live events, analysis, coaching, fitness, and
+              educational content. All content must comply with our Community Guidelines and Terms of Service.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
@@ -202,7 +200,7 @@ export default function HelpPage() {
             <Link href="#">
               <Button
                 variant="outline"
-                className="w-full sm:w-auto border-fhsb-green/50 text-fhsb-cream hover:bg-fhsb-green hover:text-black"
+                className="w-full sm:w-auto border-fhsb-green/50 text-fhsb-cream hover:bg-fhsb-green hover:text-black bg-transparent"
               >
                 <HelpCircle className="h-4 w-4 mr-2" />
                 Live Chat

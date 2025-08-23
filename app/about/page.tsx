@@ -9,12 +9,12 @@ export default function AboutPage() {
     <div className="container px-4 py-6 md:px-6 space-y-12">
       {/* Hero Section */}
       <section className="py-12 md:py-24 text-center space-y-6">
-        <h1 className="text-3xl md:text-5xl font-bold text-fhsb-cream">About Fieldhouse Stadium Beta</h1>
+        <h1 className="text-3xl md:text-5xl font-bold text-fhsb-cream">About Green Dragon Den</h1>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
           The premier livestreaming platform dedicated to sports content and community
         </p>
         <div className="flex justify-center">
-          <Image src="/logo.png" alt="Fieldhouse Stadium Beta" width={120} height={120} className="rounded-lg" />
+          <Image src="/logo.png" alt="Green Dragon Den" width={120} height={120} className="rounded-lg" />
         </div>
       </section>
 
@@ -25,9 +25,9 @@ export default function AboutPage() {
           <div className="h-1 w-20 bg-fhsb-green mx-auto"></div>
         </div>
         <p className="text-lg text-fhsb-cream text-center">
-          At Fieldhouse Stadium Beta, our mission is to connect sports fans and content creators through a dedicated
-          streaming platform that celebrates the passion, skill, and community of sports. We're building a space where
-          athletes, coaches, analysts, and fans can share their knowledge, experiences, and love for the game.
+          At Green Dragon Den, our mission is to connect sports fans and content creators through a dedicated streaming
+          platform that celebrates the passion, skill, and community of sports. We're building a space where athletes,
+          coaches, analysts, and fans can share their knowledge, experiences, and love for the game.
         </p>
       </section>
 
@@ -36,10 +36,9 @@ export default function AboutPage() {
         <div className="space-y-6">
           <h2 className="text-2xl md:text-3xl font-bold text-fhsb-cream">Our Story</h2>
           <p className="text-fhsb-cream">
-            Fieldhouse Stadium Beta was founded in 2023 by a team of sports enthusiasts and technology experts who saw
-            the need for a dedicated streaming platform for sports content. We recognized that while general streaming
-            platforms existed, none were specifically designed with the unique needs of sports content creators and fans
-            in mind.
+            Green Dragon Den was founded in 2023 by a team of sports enthusiasts and technology experts who saw the need
+            for a dedicated streaming platform for sports content. We recognized that while general streaming platforms
+            existed, none were specifically designed with the unique needs of sports content creators and fans in mind.
           </p>
           <p className="text-fhsb-cream">
             Our founders combined their passion for sports with their expertise in technology to create a platform that
@@ -140,9 +139,7 @@ export default function AboutPage() {
       <section>
         <div className="text-center space-y-4 mb-12">
           <h2 className="text-2xl md:text-4xl font-bold text-fhsb-cream">Our Team</h2>
-          <p className="text-muted-foreground max-w-3xl mx-auto">
-            Meet the passionate people behind Fieldhouse Stadium Beta
-          </p>
+          <p className="text-muted-foreground max-w-3xl mx-auto">Meet the passionate people behind Green Dragon Den</p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -208,7 +205,7 @@ export default function AboutPage() {
           <h2 className="text-2xl md:text-3xl font-bold text-fhsb-cream">Join Our Journey</h2>
           <p className="text-muted-foreground md:text-lg">
             We're just getting started, and we'd love for you to be part of our story. Whether you're a creator, a
-            viewer, or just passionate about sports, there's a place for you at Fieldhouse Stadium Beta.
+            viewer, or just passionate about sports, there's a place for you at Green Dragon Den.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-2">
             <Link href="/register">
@@ -219,7 +216,7 @@ export default function AboutPage() {
             <Link href="/careers">
               <Button
                 variant="outline"
-                className="w-full sm:w-auto border-fhsb-green/50 text-fhsb-cream hover:bg-fhsb-green hover:text-black"
+                className="w-full sm:w-auto border-fhsb-green/50 text-fhsb-cream hover:bg-fhsb-green hover:text-black bg-transparent"
               >
                 Join Our Team
               </Button>

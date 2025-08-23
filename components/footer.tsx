@@ -9,10 +9,8 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <Image src="/logo.png" alt="Fieldhouse Stadium Beta" width={40} height={40} className="rounded-sm" />
-              <span className="text-xl font-bold text-primary logo-text">
-                Fieldhouse Stadium <span className="text-secondary text-sm">BETA</span>
-              </span>
+              <Image src="/logo.png" alt="Green Dragon Den" width={40} height={40} className="rounded-sm" />
+              <span className="text-xl font-bold text-primary logo-text">Green Dragon Den</span>
             </div>
             <p className="text-sm text-muted-foreground">The premier livestreaming platform for sports and events.</p>
             <div className="flex space-x-4">
@@ -131,7 +129,7 @@ export function Footer() {
         </div>
         <div className="mt-8 border-t border-border pt-8 text-center">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} Fieldhouse Stadium Beta. All rights reserved.
+            &copy; {new Date().getFullYear()} Green Dragon Den. All rights reserved.
           </p>
         </div>
       </div>

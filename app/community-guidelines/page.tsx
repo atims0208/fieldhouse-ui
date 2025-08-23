@@ -13,7 +13,7 @@ export default function CommunityGuidelines() {
             </CardHeader>
             <CardContent className="text-cream space-y-4">
               <p>
-                Fieldhouse Stadium is committed to creating a safe, inclusive, and welcoming environment for all users.
+                Green Dragon Den is committed to creating a safe, inclusive, and welcoming environment for all users.
                 These guidelines help ensure our community remains a positive space for everyone.
               </p>
             </CardContent>
@@ -95,7 +95,7 @@ export default function CommunityGuidelines() {
             <CardContent className="text-cream space-y-4">
               <p>
                 If you encounter content or behavior that violates these guidelines, please report it using our
-                reporting tools or contact us at moderation@fieldhousestadium.com
+                reporting tools or contact us at moderation@greendragondenstream.com
               </p>
             </CardContent>
           </Card>
@@ -107,7 +107,7 @@ export default function CommunityGuidelines() {
             <CardContent className="text-cream space-y-4">
               <p>
                 If you believe your content or account was actioned in error, you can appeal the decision by contacting
-                appeals@fieldhousestadium.com
+                appeals@greendragondenstream.com
               </p>
               <p className="text-sm text-gray-400">Last updated: {new Date().toLocaleDateString()}</p>
             </CardContent>

@@ -13,8 +13,8 @@ export default function TermsOfService() {
             </CardHeader>
             <CardContent className="text-cream space-y-4">
               <p>
-                By accessing and using Fieldhouse Stadium, you accept and agree to be bound by the terms and provision
-                of this agreement.
+                By accessing and using Green Dragon Den, you accept and agree to be bound by the terms and provision of
+                this agreement.
               </p>
               <p>
                 These Terms of Service ("Terms") govern your use of our website and services. Please read them
@@ -29,7 +29,7 @@ export default function TermsOfService() {
             </CardHeader>
             <CardContent className="text-cream space-y-4">
               <p>
-                Permission is granted to temporarily download one copy of the materials on Fieldhouse Stadium for
+                Permission is granted to temporarily download one copy of the materials on Green Dragon Den for
                 personal, non-commercial transitory viewing only.
               </p>
               <p>This is the grant of a license, not a transfer of title, and under this license you may not:</p>
@@ -89,8 +89,8 @@ export default function TermsOfService() {
             </CardHeader>
             <CardContent className="text-cream space-y-4">
               <p>
-                In no event shall Fieldhouse Stadium or its suppliers be liable for any damages arising out of the use
-                or inability to use the materials on our website.
+                In no event shall Green Dragon Den or its suppliers be liable for any damages arising out of the use or
+                inability to use the materials on our website.
               </p>
             </CardContent>
           </Card>
@@ -101,7 +101,8 @@ export default function TermsOfService() {
             </CardHeader>
             <CardContent className="text-cream space-y-4">
               <p>
-                If you have any questions about these Terms of Service, please contact us at legal@fieldhousestadium.com
+                If you have any questions about these Terms of Service, please contact us at
+                legal@greendragondenstream.com
               </p>
               <p className="text-sm text-gray-400">Last updated: {new Date().toLocaleDateString()}</p>
             </CardContent>
