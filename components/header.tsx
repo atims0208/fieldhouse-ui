@@ -23,8 +23,7 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
         <div className="flex items-center gap-4">
           <Link href="/" className="flex items-center gap-2">
-            <Image src="/logo.png" alt="Green Dragon Den" width={40} height={40} className="rounded-sm" />
-            <span className="text-xl font-bold text-primary logo-text hidden md:inline-block">Green Dragon Den</span>
+            <Image src="/logo.png" alt="Green Dragon Den" width={120} height={40} className="h-10 w-auto" />
           </Link>
 
           <nav className="hidden md:flex items-center gap-6 ml-6">
